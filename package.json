@@ -1,0 +1,16 @@
+{
+  "name": "embroider-macros-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "babel test.js --out-file test-transpiled.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@embroider/macros": "^1.16.9"
+  }
+}
