@@ -1,3 +1,3 @@
 const aKnownValue = {};
 aKnownValue.foo = true;
-console.log(undefined);
+console.log(aKnownValue?.foo);
